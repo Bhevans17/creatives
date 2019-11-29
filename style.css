@@ -193,12 +193,12 @@ table {
 }
 
 .footer-wrapper .row {
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
 }
 
 .footer-wrapper ul {
-    margin: 0;
+  margin: 0;
 }
 
 .footer-wrapper h6 {
@@ -209,7 +209,7 @@ table {
 .footer-wrapper h6,
 .footer-wrapper p,
 .footer-wrapper li {
-    margin: 0;
+  margin: 0;
 }
 
 .footer-wrapper p,
@@ -243,17 +243,16 @@ table {
   }
 
   .navigation img {
-      width: 75%;
+    width: 75%;
   }
 
   .navigation ul {
-      margin-top: 25px;
-      float: right;
+    margin-top: 25px;
+    float: right;
   }
 
   .navigation ul li {
     display: inline;
-    text-align: left;
   }
 
   .navigation ul li a {
@@ -271,6 +270,6 @@ table {
   }
 
   .main-section img {
-      width: 80%;
+    width: 80%;
   }
 }
