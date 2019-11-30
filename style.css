@@ -1,275 +1,76 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* Mobile Navigation */
-#nav-container {
-  padding: 0;
-}
-
-#large-devices-wrapper {
-  display: none;
-}
-
-.fa-bars {
-  font-size: 40px;
-  margin: 10px 0 0 10px;
-}
-/* Mobile Side Menu */
-.m-side-menu {
-  height: 100%;
-  width: 80%;
-  position: absolute;
-  top: 0;
-  right: -60%;
-  background-color: black;
-  text-align: center;
-  font-size: 3vh;
-  display: none;
-  z-index: 100;
-}
-.m-side-menu li {
-  margin-top: 10%;
-}
-
-.m-side-menu a {
-  color: white;
-}
-
-.m-side-menu-show {
-  right: 0%;
-  display: initial;
-  z-index: 100;
-}
-
-/* Main Section */
-.main-section {
-  margin-top: 6vh;
-  text-align: left;
-}
-.main-section h1 {
-  font-weight: bold;
-}
-
-.main-section p {
-  margin: 0;
-}
-
-.main-section img {
-  margin-top: 2.5vh;
-  margin-bottom: 6vh;
-}
-
-/* Footer */
-.footer-wrapper {
-  background-color: black;
-  text-align: left;
-}
-
-.footer-wrapper .row {
-  padding-top: 2.5vh;
-  padding-bottom: 2.5vh;
-}
-
-.footer-wrapper ul {
-  margin: 0;
-}
-
-.footer-wrapper h6 {
-  font-weight: 600;
-  color: white;
-}
-
-.footer-wrapper h6,
-.footer-wrapper p,
-.footer-wrapper li {
-  margin: 0;
-}
-
-.footer-wrapper p,
-.footer-wrapper li {
-  color: grey;
-}
-
-/* Tablet Styles */
-@media screen and (min-width: 768px) {
-  .main-section img {
-    width: 50%;
-    display: block;
-    margin: 0 auto 6vh auto;
-  }
-}
-
-/* Larger Devices Styles */
-@media screen and (min-width: 1024px) {
-  #mobile-styles {
+/******************************* MOBILE STYLES *******************************/
+@media only screen and (max-width: 768px) {
+  /******************************* HIDE LARGE HEADER *******************************/
+  #large-header-wrapper {
     display: none;
   }
+  /******************************* MOBILE HEADER / MOBILE SIDE MENU *******************************/
+  .fa-bars {
+    font-size: 13vw;
+    padding-top: 15px;
+  }
 
-  #large-devices-wrapper {
-    width: 100%;
+  .mobile-side-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    width: 0%;
+    transition: 3s;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-side-menu ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-side-menu ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 8%;
+  }
+
+  .mobile-side-menu ul li a {
+    color: white;
+    font-size: 6.5vw;
+  }
+
+  .mobile-side-menu ul li i {
+    color: white;
+    font-size: 10vw;
+    padding: 20px 10px 0 10px;
+  }
+
+  .mobile-side-menu-active {
     display: block;
+    width: 100%;
+    transition: 3s;
   }
 
-  .navigation {
-    margin-top: 5vh;
-    margin-bottom: 15vh;
+  /******************************* MAIN SECTION *******************************/
+  #main-section h1 {
+    margin-bottom: 5%;
   }
 
-  .navigation img {
-    width: 75%;
+  #main-section p {
+    margin: 0;
   }
 
-  .navigation ul {
-    margin-top: 25px;
-    float: right;
+  /******************************* FOOTER *******************************/
+
+  #footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
   }
 
-  .navigation ul li {
-    display: inline;
-  }
-
-  .navigation ul li a {
-    padding: 0px 5px;
-    font-size: 2.7vh;
-    color: black;
-    text-decoration: none;
-  }
-  .navigation ul li a:hover {
-    color: grey;
-  }
-
-  .main-section {
-    margin-bottom: 15vh;
-  }
-
-  .main-section img {
-    width: 80%;
+  #footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 }

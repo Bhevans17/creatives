@@ -2,7 +2,7 @@ $(document).ready(function() {
   /* Toggle Navigation Menu */
   $(".fa-bars").on("click", function(e) {
     $(".fa-bars").toggleClass("fa-times");
-    $(".m-side-menu").toggleClass("m-side-menu-show");
+    $(".mobile-side-menu").toggleClass("mobile-side-menu-active");
     e.preventDefault();
   });
 
