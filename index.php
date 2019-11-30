@@ -1,7 +1,7 @@
 <?php include './includes/header.php'; ?>
 
 <!--============== MAIN SECTION ==============-->
-<div id="main-section" class="container my-5">
+<div id="main-section" class="container">
     <div class="row align-items-center">
         <div class="col-md-6">
             <h2>WE'RE THE CREATIVES OF THE FUTURE.</h2>
@@ -10,7 +10,7 @@
             <p>WE GOT THIS.</p>
         </div>
         <div class="col-md-6">
-            <img class="img-fluid" src="images/06.png" alt="Illustration" />
+            <img class="img-fluid" src="images/08.png" alt="Illustration" />
         </div>
     </div>
 </div>

@@ -1,10 +1,10 @@
 <?php include './includes/header.php'; ?>
 
 <!--============== CONTACT SECTION ==============-->
-<div class="container my-5">
+<div id="contact-section" class="container mb-5">
     <div class="row">
-        <div class="col-md-12 p-5">
-            <h1>Contact Us</h1>
+        <div class="col-md-6 offset-md-3 p-5">
+            <h1 class="mb-3">Contact Us</h1>
             <form action="#">
                 <div class="form-group">
                     <label for="email">Email</label>

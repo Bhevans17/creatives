@@ -1,4 +1,4 @@
-/******************************* MOBILE HEADER / MOBILE SIDE MENU *******************************/
+/******************************* MOBILE HEADER  *******************************/
 #large-header-wrapper {
   display: none;
 }
@@ -8,6 +8,7 @@
   padding-top: 15px;
 }
 
+/******************************* MOBILE SIDE MENU  *******************************/
 .mobile-side-menu {
   display: none;
   position: absolute;
@@ -48,30 +49,6 @@
   transition: 3s;
 }
 
-/******************************* MAIN SECTION *******************************/
-#main-section h1 {
-  margin-bottom: 5%;
-}
-
-#main-section p {
-  margin: 0;
-}
-
-/******************************* FOOTER *******************************/
-
-#footer {
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: left;
-}
-
-#footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 /******************************* LARGE HEADER *******************************/
 @media only screen and (min-width: 768px) {
   #mobile-header-wrapper,
@@ -97,4 +74,55 @@
     color: black;
     padding-left: 10px;
   }
+}
+
+/******************************* MAIN SECTION *******************************/
+#main-section {
+  margin-top: 5% !important;
+  margin-bottom: 7.5% !important;
+}
+
+#main-section h1 {
+  margin-bottom: 5%;
+}
+
+#main-section p {
+  margin: 0;
+}
+
+/******************************* ABOUT SECTION *******************************/
+#about-section {
+  margin-top: 10%;
+}
+
+/******************************* WORK SECTION *******************************/
+
+/******************************* BLOG SECTION *******************************/
+
+/******************************* CONTACT SECTION *******************************/
+#contact-section h1 {
+  text-align: center;
+}
+
+/******************************* FOOTER *******************************/
+
+#footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+#footer h6 {
+  font-weight: bold;
+}
+
+#footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer ul li a {
+  color: grey;
 }
