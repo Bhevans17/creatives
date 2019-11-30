@@ -15,7 +15,7 @@
 
     <!--============== MOBILES HEADER ==============-->
     <div id="mobile-header-wrapper">
-        <div class="container-fluid mb-5">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <i class="fas fa-bars"></i>

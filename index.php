@@ -1,7 +1,7 @@
 <?php include './includes/header.php'; ?>
 
 <!--============== MAIN SECTION ==============-->
-<div id="main-section" class="container">
+<div id="main-section" class="container pt-5">
     <div class="row align-items-center">
         <div class="col-md-6">
             <h2>WE'RE THE CREATIVES OF THE FUTURE.</h2>
