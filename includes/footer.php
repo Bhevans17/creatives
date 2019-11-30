@@ -1,29 +1,27 @@
- <!--============================= FOOTER =============================-->
+ <!--============== FOOTER ==============-->
  <div id="footer" class="container-fluid">
-     <div class="container">
-         <div class="row py-3 align-items-top">
-             <div class="col-4">
-                 <h6>Creatives.</h6>
-                 <p>&copy; Creatives. 2019 All Rights Reserved</p>
-             </div>
-             <div class="col-4">
-                 <h6>Navigation</h6>
-                 <ul>
-                     <li>Home</li>
-                     <li>About</li>
-                     <li>Work</li>
-                     <li>Blog</li>
-                     <li>Contact</li>
-                 </ul>
-             </div>
-             <div class="col-4">
-                 <h6>Social</h6>
-                 <ul>
-                     <li>Facebook</li>
-                     <li>Twitter</li>
-                     <li>Instagram</li>
-                 </ul>
-             </div>
+     <div class="row py-3 align-items-top">
+         <div class="col-4 col-md-6 offset-md-1">
+             <h6>Creatives.</h6>
+             <p>&copy; Creatives. 2019 All Rights Reserved</p>
+         </div>
+         <div class="col-4 col-md-2">
+             <h6>Navigation</h6>
+             <ul>
+                 <li>Home</li>
+                 <li>About</li>
+                 <li>Work</li>
+                 <li>Blog</li>
+                 <li>Contact</li>
+             </ul>
+         </div>
+         <div class="col-4 col-md-2">
+             <h6>Social</h6>
+             <ul>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+             </ul>
          </div>
      </div>
  </div>

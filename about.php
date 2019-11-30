@@ -1,6 +1,6 @@
 <?php include './includes/header.php'; ?>
 
-<!--============================= ABOUT SECTION =============================-->
+<!--============== ABOUT SECTION ==============-->
 <div class="container">
     <div class="row">
         <div class="col-md-12">

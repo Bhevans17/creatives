@@ -1,76 +1,100 @@
-/******************************* MOBILE STYLES *******************************/
-@media only screen and (max-width: 768px) {
-  /******************************* HIDE LARGE HEADER *******************************/
+/******************************* MOBILE HEADER / MOBILE SIDE MENU *******************************/
+#large-header-wrapper {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 13vw;
+  padding-top: 15px;
+}
+
+.mobile-side-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  height: 100vh;
+  width: 0%;
+  transition: 3s;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-side-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-side-menu ul li {
+  list-style: none;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.mobile-side-menu ul li a {
+  color: white;
+  font-size: 6.5vw;
+}
+
+.mobile-side-menu ul li i {
+  color: white;
+  font-size: 10vw;
+  padding: 20px 10px 0 10px;
+}
+
+.mobile-side-menu-active {
+  display: block;
+  width: 100%;
+  transition: 3s;
+}
+
+/******************************* MAIN SECTION *******************************/
+#main-section h1 {
+  margin-bottom: 5%;
+}
+
+#main-section p {
+  margin: 0;
+}
+
+/******************************* FOOTER *******************************/
+
+#footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+#footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************* LARGE HEADER *******************************/
+@media only screen and (min-width: 768px) {
+  #mobile-header-wrapper,
+  #mobile-side-menu {
+    display: none;
+  }
+
   #large-header-wrapper {
-    display: none;
-  }
-  /******************************* MOBILE HEADER / MOBILE SIDE MENU *******************************/
-  .fa-bars {
-    font-size: 13vw;
-    padding-top: 15px;
-  }
-
-  .mobile-side-menu {
-    display: none;
-    position: absolute;
-    z-index: 1000;
-    height: 100vh;
-    width: 0%;
-    transition: 3s;
-    background-color: black;
-    margin: 0;
-    padding: 0;
-  }
-
-  .mobile-side-menu ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  .mobile-side-menu ul li {
-    list-style: none;
-    text-align: center;
-    padding-top: 8%;
-  }
-
-  .mobile-side-menu ul li a {
-    color: white;
-    font-size: 6.5vw;
-  }
-
-  .mobile-side-menu ul li i {
-    color: white;
-    font-size: 10vw;
-    padding: 20px 10px 0 10px;
-  }
-
-  .mobile-side-menu-active {
     display: block;
-    width: 100%;
-    transition: 3s;
+    text-align: right;
   }
 
-  /******************************* MAIN SECTION *******************************/
-  #main-section h1 {
-    margin-bottom: 5%;
-  }
-
-  #main-section p {
-    margin: 0;
-  }
-
-  /******************************* FOOTER *******************************/
-
-  #footer {
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: left;
-  }
-
-  #footer ul {
-    list-style: none;
+  #large-header-wrapper ul {
     margin: 0;
     padding: 0;
+  }
+
+  #large-header-wrapper ul li {
+    display: inline;
+  }
+
+  #large-header-wrapper ul li a {
+    color: black;
+    padding-left: 10px;
   }
 }

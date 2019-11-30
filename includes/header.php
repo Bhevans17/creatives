@@ -8,12 +8,12 @@
     <link href="style.css" type="text/css" rel="stylesheet" />
     <link rel="shortcut icon" href="images/logo.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>Creatives | A Company</title>
+    <title>Creatives | A Digital Agency</title>
 </head>
 
 <body>
 
-    <!--============================= MOBILES HEADER =============================-->
+    <!--============== MOBILES HEADER ==============-->
     <div id="mobile-header-wrapper">
         <div class="container-fluid">
             <div class="row">
@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <!--============================= MOBILES SIDE MENU =============================-->
+    <!--============== MOBILE SIDE MENU ==============-->
     <div class="mobile-side-menu">
         <nav>
             <ul>
@@ -42,23 +42,20 @@
         </nav>
     </div>
 
-    <!--============================= LARGE HEADER =============================-->
-    <div id="large-header-wrapper" class="container-fluid">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-2">
-                    <a href="index.html"><img src="images/logo.png" class="img-fluid" alt="Creative company logo" /></a>
-                </div>
-                <div class="col-lg-10">
-                    <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="about.php">ABOUT</a></li>
-                        <li><a href="work.php">WORK</a></li>
-                        <li><a href="blog.php">BLOG</a></li>
-                        <li><a href="contact.php">CONTACT</a></li>
-                    </ul>
-                </div>
+    <!--============== LARGE HEADER ==============-->
+    <div id="large-header-wrapper" class="container">
+        <div class="row align-items-center">
+            <div class="col-md-1">
+                <a href="index.php"><img src="images/logo.png" class="img-fluid" alt="Creative company logo" /></a>
             </div>
-
+            <div class="col-md-11">
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="work.php">WORK</a></li>
+                    <li><a href="blog.php">BLOG</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </div>
         </div>
     </div>

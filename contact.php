@@ -1,9 +1,9 @@
 <?php include './includes/header.php'; ?>
 
-<!--============================= CONTACT SECTION =============================-->
-<div class="container">
+<!--============== CONTACT SECTION ==============-->
+<div class="container my-5">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 p-5">
             <h1>Contact Us</h1>
             <form action="#">
                 <div class="form-group">
