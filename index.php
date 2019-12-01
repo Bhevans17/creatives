@@ -1,5 +1,4 @@
 <?php include './includes/header.php'; ?>
-
 <!--============== MAIN SECTION ==============-->
 <div id="main-section" class="container pt-5">
     <div class="row align-items-center">
