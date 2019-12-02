@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link rel="shortcut icon" href="images/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <title>Creatives | A Digital Agency</title>
 </head>
@@ -31,6 +32,7 @@
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="about.php">ABOUT</a></li>
                 <li><a href="work.php">WORK</a></li>
+                <li><a href="blog.php">BLOG</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
                 <li>
                     <i class="fab fa-facebook"></i>
@@ -52,6 +54,7 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT</a></li>
                     <li><a href="work.php">WORK</a></li>
+                    <li><a href="blog.php">BLOG</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>

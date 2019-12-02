@@ -1,7 +1,7 @@
 <?php include './includes/header.php'; ?>
 
 <!--============== WORK SECTION ==============-->
-<div class="container my-5">
+<div id="work-section" class="container my-5">
     <div class="row">
         <div class="col-md-12">
             <h1 class="mb-5">Our Work</h1>

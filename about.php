@@ -1,7 +1,7 @@
 <?php include './includes/header.php'; ?>
 
 <!--============== ABOUT SECTION ==============-->
-<div class="container my-5">
+<div id="about-section" class="container my-5">
     <div class="row">
         <div id="about-section" class="col-md-12">
             <h1 class="mb-5">About Us</h1>
