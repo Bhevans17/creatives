@@ -1,6 +1,13 @@
 * {
   font-family: "Baskervville", serif;
 }
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
 /******************************* MOBILE HEADER  *******************************/
 #large-header-wrapper {
   display: none;
@@ -88,6 +95,7 @@
 #main-section p {
   margin: 0;
 }
+
 /******************************* ABOUT SECTION *******************************/
 #about-section h1 {
   text-align: center;
@@ -97,11 +105,12 @@
   text-align: center;
 }
 
-#work-section {
-  padding-bottom: 10vh;
-}
 /******************************* BLOG SECTION *******************************/
-
+#blog-jumbotron {
+  background-image: url("../images/05.png");
+  background-position-x: -500;
+  color: black !important;
+}
 /******************************* CONTACT SECTION *******************************/
 #contact-section h1 {
   text-align: center;
@@ -110,6 +119,8 @@
 /******************************* FOOTER *******************************/
 
 #footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;

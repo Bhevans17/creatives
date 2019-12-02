@@ -1,5 +1,5 @@
  <!--============== FOOTER ==============-->
- <div id="footer" class="container-fluid fixed-bottom">
+ <div id="footer" class="container-fluid">
      <div class="container">
          <div class="row py-3">
              <div class="col-12 col-md-6">
