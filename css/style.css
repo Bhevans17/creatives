@@ -2,9 +2,14 @@
   font-family: "Baskervville", serif;
 }
 
+html,
 body {
-  min-height: 100vh;
-  position: relative;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
 
@@ -29,6 +34,7 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
+  margin-top: 10vh;
 }
 
 .mobile-side-menu ul {
@@ -92,26 +98,43 @@ body {
 }
 
 /******************************* MAIN SECTION *******************************/
+#main-section {
+  flex: 1 0 auto;
+}
+
 #main-section p {
   margin: 0;
 }
 
 /******************************* ABOUT SECTION *******************************/
+#about-section {
+  flex: 1 0 auto;
+}
 #about-section h1 {
   text-align: center;
 }
+
 /******************************* WORK SECTION *******************************/
+#work-section {
+  flex: 1 0 auto;
+}
 #work-section h1 {
   text-align: center;
 }
 
 /******************************* BLOG SECTION *******************************/
+#blog-section {
+  flex: 1 0 auto;
+}
 #blog-jumbotron {
   background-image: url("../images/05.png");
   background-position-x: -500;
   color: black !important;
 }
 /******************************* CONTACT SECTION *******************************/
+#contact-section {
+  flex: 1 0 auto;
+}
 #contact-section h1 {
   text-align: center;
 }
@@ -119,11 +142,10 @@ body {
 /******************************* FOOTER *******************************/
 
 #footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
+  flex-shrink: 0;
 }
 
 #footer h6 {
