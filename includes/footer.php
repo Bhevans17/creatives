@@ -22,27 +22,6 @@
                  </div>
              </div>
          </div>
-         <!--
-             
-         <div class="col-4 col-md-2">
-             <h6>Navigation</h6>
-             <ul>
-                 <li><a href="index.php">Home</a></li>
-                 <li><a href="about.php">About</a></li>
-                 <li><a href="work.php">Work</a></li>
-                 <li><a href="blog.php">Blog</a></li>
-                 <li><a href="contact.php">Contact</a></li>
-             </ul>
-         </div>
-         <div class="col-4 col-md-2">
-             <h6>Social</h6>
-             <ul>
-                 <li><a href="#">Facebook</a></li>
-                 <li><a href="#">Twitter</a></li>
-                 <li><a href="#">Instagram</a></li>
-             </ul>
-         </div>
--->
      </div>
  </div>
 
