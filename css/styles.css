@@ -1,0 +1,31 @@
+/* index.html */
+main p {
+  margin: 0; }
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  flex-shrink: 0; }
+
+footer h6 {
+  font-weight: bold;
+  margin: 0; }
+
+footer p {
+  margin: 0; }
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right; }
+
+footer ul li a {
+  color: white; }
+
+footer ul li a:hover {
+  color: grey; }
+
+.jumbotron {
+  background-color: white !important; }
